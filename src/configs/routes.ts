@@ -24,7 +24,7 @@ export default [
     component: 'fieldInfo',
   },
   {
-    name: '创建词库',
+    name: 'add',
     path: '/dict/add',
     component: 'dict/add',
     wrappers: [
@@ -32,7 +32,7 @@ export default [
     ],
   },
   {
-    name: '创建词库成功',
+    name: 'add_result',
     path: '/dict/add_result',
     component: 'dict/add_result',
     hideInMenu: true,
@@ -46,12 +46,12 @@ export default [
     headerRender: false,
     routes: [
       {
-        name: '用户登录',
+        name: 'login',
         path: '/user/login',
         component: 'user/login',
       },
       {
-        name: '用户注册',
+        name: 'register',
         path: '/user/register',
         component: 'user/register',
       },
