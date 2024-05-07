@@ -6,7 +6,7 @@ import React, { useEffect, useState } from 'react';
 import './index.less';
 
 // 默认分页大小
-const DEFAULT_PAGE_SIZE = 5;
+const DEFAULT_PAGE_SIZE = 10;
 
 interface Props {
   title?: string;
