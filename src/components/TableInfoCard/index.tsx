@@ -33,6 +33,9 @@ const TableInfoCard: React.FC<Props> = (props) => {
   const [dataList, setDataList] = useState<TableInfoType.TableInfo[]>([]);
   const [total, setTotal] = useState<number>(0);
   const [loading, setLoading] = useState<boolean>(true);
+  const [dataList, setDataList] = useState<TableInfoType.TableInfo[]>([]);
+  const [total, setTotal] = useState<number>(0);
+  const [loading, setLoading] = useState<boolean>(true);
   const initSearchParams: TableInfoType.TableInfoQueryRequest = {
     current: 1,
     pageSize: DEFAULT_PAGE_SIZE,

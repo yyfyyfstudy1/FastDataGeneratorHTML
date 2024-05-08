@@ -68,6 +68,25 @@
   }
 }
 
+:global(.ant-pro-global-header) {
+  .dark {
+    .action {
+      color: @text-color;
+
+      > span {
+        color: @text-color;
+      }
+
+      &:hover {
+        color: rgba(255, 255, 255, 0.85);
+
+        > span {
+          color: rgba(255, 255, 255, 0.85);
+        }
+      }
+    }
+  }
+}
 :global(.ant-dropdown-menu-item) {
   padding: 12px;
 }
