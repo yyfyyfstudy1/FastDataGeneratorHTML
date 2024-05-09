@@ -14,7 +14,7 @@ export default [
     component: 'dict',
   },
   {
-    name: '表大全',
+    name: 'Complete list of tables',
     path: '/table/all',
     component: 'tableInfo',
   },
