@@ -4,12 +4,12 @@
  */
 export default [
   {
-    name: '代码生成',
+    name: 'code generation',
     path: '/',
     component: 'index',
   },
   {
-    name: '词库大全',
+    name: 'Thesaurus',
     path: '/dict/all',
     component: 'dict',
   },
