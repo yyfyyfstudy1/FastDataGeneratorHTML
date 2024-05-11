@@ -51,52 +51,6 @@ export const DEFAULT_ADD_FIELD: Field = {
   autoIncrement: false,
 };
 
-/**
- * 通用字段列表
- */
-export const COMMON_FIELD_LIST: Field[] = [
-  {
-    fieldName: 'id',
-    comment: '主键',
-    defaultValue: undefined,
-    fieldType: 'bigint',
-    mockType: '不模拟',
-    notNull: true,
-    primaryKey: true,
-    autoIncrement: true,
-  },
-  {
-    fieldName: 'create_time',
-    comment: '创建时间',
-    defaultValue: 'CURRENT_TIMESTAMP',
-    fieldType: 'datetime',
-    mockType: '不模拟',
-    notNull: true,
-    primaryKey: false,
-    autoIncrement: false,
-  },
-  {
-    fieldName: 'update_time',
-    comment: '更新时间',
-    defaultValue: 'CURRENT_TIMESTAMP',
-    fieldType: 'datetime',
-    mockType: '不模拟',
-    notNull: true,
-    primaryKey: false,
-    autoIncrement: false,
-    onUpdate: 'CURRENT_TIMESTAMP',
-  },
-  {
-    fieldName: 'is_deleted',
-    comment: '是否删除(0-未删, 1-已删)',
-    defaultValue: '0',
-    fieldType: 'tinyint',
-    mockType: '不模拟',
-    notNull: true,
-    primaryKey: false,
-    autoIncrement: false,
-  },
-];
 
 /**
  * 模拟类型列表
