@@ -46,7 +46,7 @@ const ImportFieldDrawer: React.FC<Props> = (props) => {
 
   return (
     <Drawer
-      title="导入字段"
+      title="import"
       contentWrapperStyle={{ width: '60%', minWidth: 320 }}
       open={visible}
       onClose={onClose}
