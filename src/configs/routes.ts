@@ -64,17 +64,17 @@ export default [
     // flatMenu: true,
     routes: [
       {
-        name: '用户管理',
+        name: 'user management',
         path: '/admin/user',
         component: 'admin/user',
       },
       {
-        name: '词库管理',
+        name: 'vocabulary management',
         path: '/admin/dict',
         component: 'admin/dict',
       },
       {
-        name: '表管理',
+        name: 'form  management',
         path: '/admin/table',
         component: 'admin/tableInfo',
       },
@@ -88,6 +88,7 @@ export default [
         path: '/admin/report',
         component: 'admin/report',
       },
+
     ],
   },
 ];
