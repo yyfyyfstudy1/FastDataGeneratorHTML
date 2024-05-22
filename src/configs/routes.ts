@@ -79,12 +79,12 @@ export default [
         component: 'admin/tableInfo',
       },
       {
-        name: '字段管理',
+        name: 'phase management',
         path: '/admin/field',
         component: 'admin/fieldInfo',
       },
       {
-        name: '举报管理',
+        name: 'alarm management',
         path: '/admin/report',
         component: 'admin/report',
       },
